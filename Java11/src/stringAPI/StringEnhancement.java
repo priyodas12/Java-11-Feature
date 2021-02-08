@@ -9,5 +9,12 @@ public class StringEnhancement {
                 "bcs\n" +
                 "def\n";
         s2.lines().forEach(System.out::println);
+
+        String s3="  aasl  as ";
+        System.out.println(s3.strip());
+        System.out.println(s3.trim());
+
+        String s4="a";
+        System.out.println(s4.repeat(100));
     }
 }
